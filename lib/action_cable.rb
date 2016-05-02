@@ -50,3 +50,5 @@ module ActionCable
   autoload :RemoteConnections
   autoload :SubscriptionAdapter
 end
+
+require 'action_cable/engine' if defined?(Rails)
